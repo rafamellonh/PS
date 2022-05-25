@@ -1,0 +1,5 @@
+ #NETSTAT
+ netstat -na | Select-String "445"
+ 
+ #PORTS 
+ Test-NetConnection google.com -Port 80
