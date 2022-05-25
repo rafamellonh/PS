@@ -3,3 +3,4 @@
  
  #PORTS 
  Test-NetConnection google.com -Port 80
+Test-NetConnection -ComputerName google.com -Port 443
