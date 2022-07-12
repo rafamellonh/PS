@@ -1,0 +1,1 @@
+New-NetFirewallRule -Name "Zabbix" -LocalPort 10050 -Direction Inbound -Protocol TCP -Action Allow
