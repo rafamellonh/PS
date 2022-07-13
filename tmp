@@ -1,0 +1,3 @@
+$veeam = Get-Service -Name *veeam*
+Write-Output $veeam.name
+Start-Service $veeam.name
