@@ -1,2 +1,3 @@
 👉 Mostra todas as partições de replicação do AD
+
 ``` Repadmin /showrepl ``` 
