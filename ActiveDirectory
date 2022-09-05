@@ -1,11 +1,11 @@
 👉 Mostra todas as partições de replicação do AD
 
-``` Repadmin /showrepl ``` 
+Repadmin /showrepl 
 
 👉 Dispara 5 tentativas de replicação
 
-``` repamin /replsummary ``` 
+repamin /replsummary    
 
 👉 Faz uma verificação mais profunda
 
-``` dcdiag ``` 
+dcdiag
