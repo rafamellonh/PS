@@ -1,3 +1,11 @@
 👉 Mostra todas as partições de replicação do AD
 
 ``` Repadmin /showrepl ``` 
+
+👉 Dispara 5 tentativas de replicação
+
+``` repamin /replsummary ``` 
+
+👉 Faz uma verificação mais profunda
+
+``` dcdiag ``` 
