@@ -11,3 +11,5 @@ Set-VMNetworkAdapterVlan -VMName FW -Trunk -AllowedVlanIdList 100-500 -NativeVla
 
 #Verifica as VLANs existentes
 Get-VM -Name VM01 | Get-VMNetworkAdapterVlan
+
+#Consulte imagem GetNic.png
