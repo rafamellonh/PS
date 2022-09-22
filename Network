@@ -7,3 +7,7 @@
  
  #NSLOOKUP
  nslookup -type=SOA rafaelmellonh.com.br
+
+#Alterar o nome da pasta compartilhada
+$a = New-Object -ComObject shell.application
+$a.NameSpace( "r:\" ).self.name = "Mello01"
