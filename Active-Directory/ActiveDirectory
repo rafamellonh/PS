@@ -14,6 +14,10 @@ repamin /syncall srv02 /aed
 
 dcdiag
 
+👉 Mesma verificação mas somente da replicação
+
+dcdiag /test:replications
+
 👉 Consultar quem são os mestres fsmo
 
  Netdom query fsmo
