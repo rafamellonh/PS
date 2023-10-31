@@ -6,6 +6,10 @@ Repadmin /showrepl
 
 repamin /replsummary    
 
+👉 Força a replicação a partir do servidor srv02 para o servidor onde está sendo executado o comando
+
+repamin /syncall srv02 /aed 
+
 👉 Faz uma verificação mais profunda
 
 dcdiag
